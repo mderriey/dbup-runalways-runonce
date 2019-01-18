@@ -1,7 +1,8 @@
 ﻿CREATE OR ALTER VIEW [dbo].[vwGetUsers] AS (
 	SELECT
 		Id,
-		Name
+		Name,
+		DateOfBirth
 	FROM
 		[dbo].[Users]
 )
